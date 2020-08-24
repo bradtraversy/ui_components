@@ -26,13 +26,13 @@ a {
     border: 20px solid #dce7ff;
     width: 1000px;
     box-shadow: 0 4px 5px rgba(0,0,0,0.1);
-    display: flex;
+    display: flex; 
 }
 
 form {
     border-right: 1px solid #ecf2ff;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     padding: 40px;
@@ -133,12 +133,19 @@ input:not([type="checkbox"]) {
     margin: 5px 0;
 }
 
-@media(max-width: 768px) {
+  @media(max-width: 768px) {
     .container {
-        flex-direction: column;
+        flex-direction: column; 
+        margin-top: 100%;
     }
 
     form {
-        border-right: 0;
-    }
-}
+       border-right: 0; 
+        flex: 1;
+      }
+
+      .features {
+          flex: 1;
+      } 
+
+} 
