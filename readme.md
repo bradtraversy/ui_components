@@ -2,7 +2,7 @@
 
 > This is a repo of UI components written in HTML & CSS. The designs come from [UI Design Daily](https://uidesigndaily.com).
 
-I will be adding 3 more per month and creating a video for them at [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA). Feel free to use these however you would like.
+I will be adding 3 more every month and create a video for them at [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA). Feel free to use these in whichever way you would like.
 
 ## Links to original designs:
 
