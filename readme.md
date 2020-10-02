@@ -1,6 +1,6 @@
-# HTML & CSS UI Components
+# HTML 5 & CSS UI(User Interface) Components
 
-> This is a repo of UI components written in HTML & CSS. The designs come from [UI Design Daily](https://uidesigndaily.com).
+> This is a repo of UI(User Interface) components written in HTML & CSS. The designs come from [UI Design Daily](https://uidesigndaily.com).
 
 I will be adding 3 more per month and creating a video for them at [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA). Feel free to use these however you would like.
 
