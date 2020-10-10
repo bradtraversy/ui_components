@@ -9,3 +9,7 @@ I will be adding 3 more per month and creating a video for them at [Traversy Med
 1. [Blog Cards](https://uidesigndaily.com/posts/sketch-blog-cards-post-article-thumbnail-day-997)
 2. [Login](https://uidesigndaily.com/posts/sketch-login-log-in-authentication-features-day-1022)
 3. [Ads Manager](https://uidesigndaily.com/posts/sketch-ads-manager-table-list-day-1049)
+
+
+Thanks for reading me .
+Have a nice day.
