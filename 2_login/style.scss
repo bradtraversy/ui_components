@@ -1,0 +1,137 @@
+$color_1: #141c2c;
+$color_2: #2762eb;
+$color_3: #7a7e8c;
+$color_4: #fff;
+$font-family_1: 'Open Sans', sans-serif;
+$font-family_2: inherit;
+$background-color_1: #f7f8fc;
+$background-color_2: #fff;
+$background-color_3: transparent;
+$background-color_4: #141c2c;
+$border-color_1: #ecf2ff;
+
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap";
+* {
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: $background-color_1;
+	color: $color_1;
+	font-family: $font-family_1;
+	margin: 0;
+}
+a {
+	color: $color_2;
+	text-decoration: none;
+}
+.container {
+	background-color: $background-color_2;
+	border-radius: 3px;
+	border: 20px solid #dce7ff;
+	width: 1000px;
+	box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+	display: flex;
+}
+form {
+	border-right: 1px solid #ecf2ff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+	flex: 1;
+}
+.form-control {
+	margin: 10px 0;
+	width: 100%;
+}
+label {
+	display: inline-block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+input {
+	&:not([type="checkbox"]) {
+		background-color: $background-color_3;
+		border: 2px solid #ecf2ff;
+		border-radius: 3px;
+		font-family: $font-family_2;
+		font-size: 14px;
+		padding: 10px;
+		width: 100%;
+	}
+}
+.checkbox-container {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	margin-bottom: 15px;
+	width: 100%;
+	a {
+		margin-left: auto;
+	}
+	label {
+		color: $color_3;
+		font-weight: normal;
+	}
+}
+.btn {
+	cursor: pointer;
+	background-color: $background-color_4;
+	border: 2px solid #141c2c;
+	border-radius: 3px;
+	color: $color_4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: $font-family_2;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px;
+	margin: 20px 0;
+	width: 100%;
+	img {
+		margin-right: 5px;
+		width: 20px;
+	}
+}
+.btn-ghost {
+	background-color: $background-color_3;
+	border-color: $border-color_1;
+	color: $color_1;
+}
+.features {
+	flex: 1.5;
+	padding: 40px;
+}
+.feature {
+	position: relative;
+	padding-left: 30px;
+	margin: 40px 0;
+	i {
+		color: $color_2;
+		position: absolute;
+		top: 5px;
+		left: 0;
+	}
+	h3 {
+		margin: 0;
+	}
+	p {
+		font-size: 14px;
+		line-height: 1.8;
+		margin: 5px 0;
+	}
+}
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+	}
+	form {
+		border-right: 0;
+	}
+}
